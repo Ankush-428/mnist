@@ -1,8 +1,0 @@
-containers:
-- name: ml_model_in_production
-  image: f9556e7050625dbffff18cb58430c091e2649daa6b58f56498311e064b4d96dd
-  ports:
-  - containerPort: 5000
-- port: 8000
-  protocol: TCP
-  targetPort: 5000
